@@ -1,6 +1,6 @@
 import csv
 
-# Faila nosaukumi
+# Faila nosaukumi awe
 sakotnejie_dati_fails = 'sakotnejie_dati.csv'
 jaunie_dati_fails = 'jaunie_dati.csv'
 
