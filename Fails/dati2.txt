@@ -1,0 +1,4 @@
+{"Somija": "Fazer", "Latvija": "Laima", "Lietuva": "Ruta"}Rīga
+Sigulda
+Jaunpiebalga
+Hello, World!
