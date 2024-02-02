@@ -1,3 +1,20 @@
+def selectionSort(array, size):
+   
+    for step in range(size):
+        min_idx = step
+
+        for i in range(step + 1, size):
+         
+            # to sort in descending order, change > to < in this line
+            # select the minimum element in each loop
+            if array[i] < array[min_idx]:
+                min_idx = i
+         
+        # put min at the correct position
+        (array[step], array[min_idx]) = (array[min_idx], array[step])
+
+
+
 def sakartot():
     elementi = int(input("Ievadiet studentu skaitu sarakstā: "))
     saraksts = {}
@@ -15,6 +32,7 @@ def sakartot():
                 marklist[i]=marklist[j]
                 marklist[j]=t
     sortdict=dict(marklist)
+    
     uz_augsu_vai_leju = input("Kā jūs vēlaties printēt sarakstu? (up/down)")
     if uz_augsu_vai_leju == 'up':
         print("\n".join("{}\t{}".format(k, v) for k, v in sortdict.items()))
